@@ -23,28 +23,10 @@ Learning to build software and smart homes — step by step.
 
 ## 🛠️ Mini Python Projects
 
-### 1. Terminal Login System (Practice)
+### 📝 To-Do List App (Terminal-based)
 
-```python
-id = 'sankworks'
-password = '1234'
-attempt = 3
-
-while attempt > 0:
-    input_id = input('ID: ')
-    if input_id != id:
-        print('Wrong ID')
-    else:
-        input_pw = input('Password: ')
-        if input_pw == password:
-            print('Welcome!')
-            break
-        else:
-            print('Wrong password')
-    attempt -= 1
-
-if attempt == 0:
-    print('Access denied')
+This was my first mini project during the SoloLearn Python course.  
+It lets the user add, view, and remove tasks in a simple CLI interface.
 
 
 > “Code is not just for computers. It’s a language for your future.”
